@@ -16,6 +16,10 @@
 		font-family: Garamond;
 	}
 
+	.logo-container{
+		position: relative;
+	}
+
 	.logo{
 		display: block;
 		margin-left: auto;
@@ -23,7 +27,10 @@
 		width: 40%;
 	}
 
-	.divider{
+	.iso{
+		position: absolute;
+		display: inline;
+		height: 90px;
 	}
 
 	.date{
@@ -31,13 +38,16 @@
 	}
 
 	.firma{
-		width: 20%;
+		width: 18%;
 	}
 	</style>
  </head>
 <body>
 	<p class="date">#FECHA#</p>
-	<img class="logo" src="../mesquita.png">
+	<div class="logo-container">
+		<img class="iso" src="../iso.jpg" alt="">
+		<img class="logo" src="../mesquita.png">
+	</div>
 	<hr class="divider">
 	<p class="addressed">Se&#241;ores: #EMPRESA#<br>
 			Direccion de entrega: #DIRECCION#
@@ -54,12 +64,14 @@
 
 	<p>Por la presente CERTIFICAMOS en car&aacute;cter de declaraci&oacute;n  jurada que las puertas #MODELO# han sido construidas para la resistencia al fuego con los criterios establecidos en la NORMAS IRAM 11949, 11950, 11951 y 11952/ ISO 834 respondiendo a la descripci&oacute;n t&eacute;cnica que adjuntamos EN COPIA FIEL del informe de ensayo EQUIPAMIENTOS DE SEGURIDAD SA OT 101/20053 con fecha 20/07/2011 Y OT 101/20840 con fecha 26/09/2011 correspondiendo a la  clasificaci&oacute;n obtenida #MODELO#.</p>
 
+	<p>Tambi&eacute;n les informamos que las puertas han sido contruidas bajo un proceso de fabricaci&oacute;n estandarizado acorde a nuestro sistema de gesti&oacute;n de la calidad ISO 9001</p>
+
 	<p>Las caracter&iacute;sticas generales de dichas puertas ignifugas cumplen con las exigencias impartidas por el C&oacute;digo de Edificaci&oacute;n de la Ciudad de Buenos Aires.</p>
 
 	<p>Sin m&aacute;s los saluda muy cordialmente.</p>
 
 	<p>Monica Drago</p>
-	<p>Dpto. de administraci&oacute;n</p>
+	<p>Mesquita Hnos - Dpto. de administraci&oacute;n</p>
 
 	<img class="firma" src="../firma_monica_certificados.jpg"/>
 
