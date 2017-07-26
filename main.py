@@ -85,7 +85,7 @@ def text_to_watermark(text):
 
     draw = ImageDraw.Draw(wm)
 
-    draw.text((0,0), text, fill=(255, 0, 0, 200), font=myFont, align='center')
+    draw.multiline_text((0,0), text, fill=(255, 0, 0, 200), font=myFont, align='center')
     wm = wm.rotate(45, expand=True, resample=Image.BICUBIC)
     imageBox = wm.getbbox()
     wm = wm.crop(imageBox)
