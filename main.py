@@ -21,7 +21,7 @@ fnHtmlPdfOut = "temp/htpdo.pdf"
 fnHtmlOut = "temp/ht.html"
 
 dFnPDF = {'RF30': 'pdf/rf30s.pdf', 'RF60': 'pdf/rf60s.pdf', 'RF60 (Doble)': 'pdf/rf60d.pdf', 'RF90': 'pdf/rf120s', 'RF120': 'pdf/rf120s.pdf'}
-
+dOrden = {'RF30': 'Nro 101/14809, con fecha el 25/02/2008', 'RF60': 'Nro 101/15978, con fecha el 30/08/2011', 'RF60 (Doble)': 'Nro 101/8896, con fecha el 30/03/2005', 'RF120': 'Nro 101/4268, con fecha el 17/10/2000'}
 
 def deleteFile(fnIn):
         try:
@@ -59,6 +59,7 @@ def generateHtmlPdf(dCertificado):
         sOut = sOut.replace(key, str(dCertificado[key]))
 
     sOut = sOut.replace("#FECHA#", time.strftime("%d-%m-%Y"))
+    sOut = sOut.replace("#ORDEN#", dOrden[dCertificado['#MODELO#']])
 
     with open(fnHtmlOut, 'w') as fOut:
         fOut.write(sOut)
