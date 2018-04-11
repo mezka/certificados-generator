@@ -20,7 +20,7 @@ fnWatermarkedOut = "temp/wmo.pdf"
 fnHtmlPdfOut = "temp/htpdo.pdf"
 fnHtmlOut = "temp/ht.html"
 
-dFnPDF = {'RF30': 'pdf/rf30s.pdf', 'RF60 SIMPLE': 'pdf/rf60s.pdf', 'RF60 DOBLE': 'pdf/rf60d.pdf', 'RF90': 'pdf/rf120s', 'RF120': 'pdf/rf120s.pdf', 'RF60 EURO SIMPLE': 'pdf/rf60s_euro_inti.pdf', 'RF60 EURO DOBLE': 'pdf/rf60s_euro.pdf', 'RF60 SIMPLE VIDRIADA': 'pdf/rf60sv_euro.pdf', 'RF120 EURO SIMPLE': 'pdf/rf120s_euro.pdf', 'RF120 EURO DOBLE': 'pdf/rf120d_euro.pdf'}
+dFnPDF = {'RF30': 'pdf/rf30s.pdf', 'RF60 SIMPLE': 'pdf/rf60s.pdf', 'RF60 DOBLE': 'pdf/rf60d.pdf', 'RF90': 'pdf/rf120s', 'RF120': 'pdf/rf120s.pdf', 'RF60 EURO SIMPLE': 'pdf/rf60s_euro_inti.pdf', 'RF60 EURO DOBLE': 'pdf/rf60d_euro.pdf', 'RF60 SIMPLE VIDRIADA': 'pdf/rf60sv_euro.pdf', 'RF120 EURO SIMPLE': 'pdf/rf120s_euro.pdf', 'RF120 EURO DOBLE': 'pdf/rf120d_euro.pdf'}
 dOrden = {'RF30': 'Nro 101/14809, con fecha del 25/02/2008', 'RF60 SIMPLE': 'Nro 101/15978, con fecha del 30/08/2011', 'RF60 DOBLE': 'Nro 101/8896, con fecha del 30/03/2005', 'RF90': 'Nro 101/4268, con fecha del 17/10/2000','RF120': 'Nro 101/4268, con fecha del 17/10/2000', 'RF60 EURO SIMPLE': 'Nro 101/22989, con fecha del 10/09/2013', 'RF60 EURO DOBLE': 'Nro 13097-2, con fecha del 14/09/2006', 'RF60 SIMPLE VIDRIADA': 'Nro 28485-2, con fecha del 25/08/2011', 'RF120 EURO SIMPLE': 'Nro 22076-5, con fecha del 19/06/2009', 'RF120 EURO DOBLE': 'Nro 24922-2, con fecha del 16/06/2010'}
 
 def deleteFile(fnIn):
