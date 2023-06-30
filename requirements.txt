@@ -1,4 +1,4 @@
 WeasyPrint==0.38
 xlrd==1.0.0
 Pillow==4.1.1
-PyPDF2==1.26.0
+PyPDF2==1.27.9
